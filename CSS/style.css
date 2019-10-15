@@ -1,1 +1,73 @@
-style.css
+.container_grid
+{
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 5fr;
+}
+
+.server
+{
+	background-color: #7CBBFF;
+}
+
+.channel
+{
+	background-color: #6087FF;
+}
+
+.title
+{
+	color: white;
+	font-weight: bold;	
+}
+
+.title p
+{
+	font-size: 20px;
+	color: white;
+	font-weight: normal;
+}
+
+.title h4
+{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#plus
+{
+	font-weight: bolder;	
+	font-size: 30px;
+
+}
+
+.all_channel
+{
+	margin-top : -10px;
+	line-height: 6px;
+}
+
+
+.server h2
+{
+	color: white;
+	font-weight: bolder;
+	background-color: #6087FF;
+	padding: 20px;
+	border-radius: 5px;
+	border-color: white;
+	border: solid 2px;
+}
+
+.chat
+{
+
+}
+
+.top_line
+{
+	background-color: grey;
+	height: 1px;
+	width: 100%;
+	opacity: 0.2;
+}

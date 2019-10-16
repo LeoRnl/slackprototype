@@ -70,4 +70,38 @@
 	height: 1px;
 	width: 100%;
 	opacity: 0.2;
+	z-index: 2;
+}
+
+.card_ajust img
+{
+	border-radius: 5px;
+}
+
+.chat
+{
+	overflow: scroll;
+}
+
+.top_title
+{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: #ffff;
+	padding: 20px;
+	border-bottom: solid 1px lightgrey;
+}
+
+.enter_text
+{
+	background-color: #ffff;
+	padding: 20px;
+	border: solid 1px lightgrey;
+	height: 60px;
+	padding-bottom: 45px;
+	width: 100%;
+	position: sticky;
+	bottom: 0;
+	z-index: 1;
 }
